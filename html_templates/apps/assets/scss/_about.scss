@@ -1,0 +1,240 @@
+/* About Section 
+============== */
+
+.about-area {
+    /*	background-image: url(../img/about/about-bg.jpg);*/
+    position: relative;
+}
+
+.about-area .section-title {
+    margin-bottom: 30px;
+}
+
+.about-img {
+    padding-left: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.founded-year {
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+    border: 10px solid #fff;
+    box-shadow: 0 1px 4px -2px #6e7b71;
+}
+
+.founded-year i {
+    background: #C89D65;
+    color: #fff;
+    width: 200px;
+    height: 155px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 20px 35px;
+}
+
+.founded-year i:before {
+    font-size: 50px;
+    line-height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.about-content-area {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.about-content-area .section-title h2 {
+    position: relative;
+}
+
+.about-content-area p.highlight {
+    position: relative;
+    padding-left: 35px;
+    margin: 20px 0;
+}
+
+.about-content-area p.highlight:before {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    top: 5px;
+    left: 0;
+    background: #C89D66;
+}
+
+.founded {
+    padding-top: 15px;
+}
+
+.founded-text p {
+    font-size: 24px;
+    font-style: italic;
+    line-height: 30px;
+    color: #1A3759;
+    font-weight: 500;
+    padding: 20px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    border-top: 5px dotted #C89D66;
+    border-bottom: 5px dotted #C89D66;
+    margin-top: 10px;
+}
+
+.about-img img {
+    border-radius: 5px;
+    box-shadow: 0 1px 73px 0 rgb(38 43 62 / 0.1);
+}
+
+/*About Section # 02*/
+
+#about-2.about-area {
+    background-image: none;
+}
+
+.about-content-wrapper {
+    background: #fff;
+    padding: 80px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-top: -40px;
+    position: relative;
+    z-index: 9;
+    border-top: 10px solid #C89D66;
+}
+
+.about-bg-wrapper {
+    height: 100%;
+    border: 10px solid #fff;
+    border-right: 0;
+    margin-left: 70px;
+}
+
+.about-bg-innner {
+    background-image: url(../img/about/about-2.jpg);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    filter: grayscale(40%);
+}
+
+.about-content-wrapper .key-feature {
+    margin-top: 20px;
+}
+
+.about-content-wrapper .key-feature h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px 0 20px;
+}
+
+.about-icon img {
+    width: 50px;
+}
+
+.img-content img {
+    width: 135px;
+}
+
+.text-content {
+    padding-left: 60px;
+    position: relative;
+}
+
+.text-content h6 {
+    font-size: 18px;
+}
+
+.text-content p {
+    font-size: 16px;
+}
+
+.text-content:before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 50px;
+    background: #eee;
+    top: 0;
+    left: 24px;
+}
+
+/* About Section # 03
+============== */
+
+#about-3 .about-content-area .section-title h2 {
+    position: relative;
+    font-size: 55px;
+    line-height: 60px;
+}
+
+.about-key {
+    overflow: hidden;
+}
+
+.about-key li {
+    margin-bottom: 16px;
+    float: left;
+    width: 50%;
+}
+
+.about-key li i {
+    position: relative;
+}
+
+.about-key li i:before {
+    font-size: 25px;
+    color: #C89D66;
+    margin-right: 10px;
+    position: absolute;
+    top: -18px;
+}
+
+.about-key li p {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 500;
+    color: #262B3E;
+    position: relative;
+    padding-left: 35px;
+    margin: 0;
+}
+
+.about-content-area .main-btn {
+    margin: 35px 0;
+    margin-left: 25px;
+}
+
+.about-content-area .main-btn:hover {
+    background: #10102D;
+    color: #fff;
+    border: 2px solid #10102D;
+}
+
+.call-us .icon i {
+    font-size: 45px;
+    margin-top: 4px;
+    margin-right: 18px;
+    display: inline-block;
+    color: #C79C65;
+}
+
+.mobile-number p {
+    color: #232323;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.mobile-number h5 {
+    color: #898989;
+    margin-bottom: 5px;
+}

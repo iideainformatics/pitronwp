@@ -1,0 +1,137 @@
+/* Process Section
+============== */
+
+.featured-process-area {
+    background-image: url(../img/choose-us-bg.jpg);
+}
+
+.process-grids {
+    background-image: url(../img/process/featured-process-bg.jpg);
+    position: relative;
+    z-index: 1;
+}
+
+.featured-process-area .process-grids .grid {
+    width: 25%;
+    float: left;
+    border-right: 1px solid #3a3a6154;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+    overflow: hidden;
+}
+
+.featured-process-area .process-grids .inner {
+    padding: 200px 60px 100px;
+    position: relative;
+    top: 60px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+
+}
+
+.featured-process-area .process-grids .count {
+    font-size: 50px;
+    font-weight: 600;
+    color: #DFB163;
+}
+
+.featured-process-area .process-grids h3 {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.featured-process-area .process-grids p {
+    color: #cecccc;
+    margin-bottom: 0;
+    padding-bottom: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.featured-process-area .process-grids .inner > a {
+    position: relative;
+    top: 100px;
+}
+
+.featured-process-area .process-grids .grid:hover .inner > a {
+    top: 0;
+}
+
+.featured-process-area .process-grids .grid:hover .inner {
+    background-color: #1F2839;
+    top: 0;
+}
+
+.content-area {
+    margin-top: 20px;
+}
+
+/*Process Section # 02 */
+
+.process-item-wrap {
+    margin-top: 50px;
+}
+
+.single-process-item {
+    text-align: center;
+}
+
+.process-num {
+    position: absolute;
+    right: 70px;
+    top: 0;
+    z-index: 9;
+    background: #10102D;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 7px;
+    transition: .3s;
+}
+
+.process-num p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.process-icon {
+    border: 10px solid #ddd;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 35px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    transition: .3s;
+}
+
+.process-icon img {
+    padding-left: 10px;
+}
+
+.single-process-item h5 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 25px 25px;
+    line-height: 27px;
+}
+
+.single-process-item:hover .process-icon {
+    border-color: #C79C65;
+    opacity: .8;
+}
