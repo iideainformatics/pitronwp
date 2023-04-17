@@ -1,0 +1,7 @@
+Create database pitronwp1;
+
+--CREATE USER 'medicaidwp'@'%' IDENTIFIED WITH mysql_native_password BY 'medicaidwp123#';
+
+GRANT ALL ON pitronwp1.* TO 'ecofixwp'@'%';
+
+exit
