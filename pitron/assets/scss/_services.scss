@@ -1,0 +1,303 @@
+/* Service Section 
+============== */
+
+.services-area {
+    background-image: url(../img/service/service-bg.jpg);
+    position: relative;
+}
+
+.services-area .section-title h2 {
+    color: #fff;
+}
+
+.services-area:after {
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #020E28;
+    opacity: .5;
+    z-index: -1;
+}
+
+.single-service-area {
+    text-align: center;
+    background: #0d1a33;
+    padding: 40px;
+    border-bottom: 4px solid #C79C65;
+    position: relative;
+    z-index: 1;
+}
+
+.service-icon i:before {
+    font-size: 50px;
+    color: #C89D66;
+}
+
+.single-service-area h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    color: #fff;
+    margin: 30px 0 20px;
+}
+
+.single-service-area p {
+    color: #ccc7c7;
+}
+
+.single-service-area:hover {
+    border-bottom: 4px solid #C79C65;
+}
+
+.single-service-area:before {
+    background-image: url(../img/service/business_law.jpg);
+}
+
+.service-2:before {
+    background-image: url(../img/service/family_law.jpg);
+}
+
+.service-3:before {
+    background-image: url(../img/service/criminal_law.jpg);
+}
+
+.service-4:before {
+    background-image: url(../img/service/realestate_law.jpg);
+}
+
+.service-5:before {
+    background-image: url(../img/service/civil_law.jpg);
+}
+
+.service-6:before {
+    background-image: url(../img/service/labour_law.jpg);
+}
+
+.single-service-area:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease-out;
+    background-size: cover;
+    background-position: center;
+}
+
+.single-service-area:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #03102A;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s ease-out;
+}
+
+.single-service-area:hover::before {
+    visibility: visible;
+    opacity: 1;
+}
+
+.single-service-area:hover::after {
+    visibility: visible;
+    opacity: .8;
+}
+
+
+/* Service Section # 02
+============== */
+
+#service-2.services-area {
+    background: #fff;
+}
+
+#service-2 .section-title h2 {
+    color: inherit;
+}
+
+#service-2 .single-service-area.service-2,
+#service-2 .single-service-area.service-4,
+#service-2 .single-service-area.service-6 {
+    background: #C89D66;
+}
+
+#service-2 .single-service-area h4 {
+    color: #fff;
+}
+
+#service-2 .single-service-area p {
+    color: #fff;
+}
+
+#service-2 .single-service-area.blue-bg {
+    background: #222235;
+}
+
+#service-2 .single-service-area.blue-bg h4 {
+    color: #fff;
+}
+
+#service-2 .single-service-area:hover h4 {
+    color: #fff;
+}
+
+#service-2 .single-service-area.service-2 .service-icon i:before,
+#service-2 .single-service-area.service-4 .service-icon i:before,
+#service-2 .single-service-area.service-6 .service-icon i:before {
+    color: #fff;
+}
+
+/* Service Section # 03  
+==================== */
+
+.single-serv-wrapper {
+    box-shadow: 0 3px 9px -2px #d0cece;
+    margin-top: 40px;
+}
+
+.single-serv-bg {
+    background-image: url(../img/service/01.jpg);
+    height: 325px;
+    // filter: grayscale(40%);
+}
+
+.serv-bg-2 {
+    background-image: url(../img/service/04.jpg);
+}
+
+.serv-bg-3 {
+    background-image: url(../img/service/05.jpg);
+}
+
+.serv-bg-4 {
+    background-image: url(../img/service/02.jpg);
+}
+
+#service-3 .single-serv-area {
+    height: 325px;
+    padding: 40px;
+    margin-top: 0;
+    text-align: center;
+    background: #fff;
+    box-shadow: none;
+    transition: .3s;
+}
+
+.single-serv-area h5 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+#service-3 .serv-icon i:before {
+    color: #002C42;
+}
+
+#service-3 .single-serv-area a.read-more {
+    margin: 12px 0 0;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#service-3 .single-serv-area:hover {
+    background: #C79C66;
+}
+
+#service-3 .single-serv-area:hover .service-icon i:before {
+    color: #fff;
+}
+
+#service-3 .single-serv-area:hover h5 {
+    color: #fff;
+}
+
+#service-3 .single-serv-area:hover a.read-more {
+    color: #fff;
+}
+
+#service-3 .single-serv-area:hover p {
+    color: #fff;
+}
+
+/* Single Service Page
+============== */
+
+.service-list {
+    background: #F6F6F6;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.service-list h5 {
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.service-list a {
+    font-size: 16px;
+    display: block;
+    color: #333;
+    padding: 14px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.service-list a.active {
+    background: #C89D66;
+    color: #fff;
+}
+
+.service-list a span {
+    float: right;
+}
+
+.single-service h2 {
+    margin: 30px 0;
+}
+
+.single-service h5 {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.single-service p {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.single-service-bg img {
+    width: 100%;
+}
+
+.helpline-section {
+    background: #020E28;
+    color: #fff;
+    padding: 20px;
+    margin-top: 35px;
+    height: 272px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.helpline-section h4 {
+    color: #fff;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.helpline-section button {
+    margin-top: 15px;
+}

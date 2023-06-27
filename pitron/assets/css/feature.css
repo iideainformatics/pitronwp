@@ -1,0 +1,48 @@
+.feature-wrap {
+  margin-top: 40px;
+}
+
+.feature-inner {
+  display: flex;
+  margin-top: 30px;
+}
+
+.feature-icon i {
+  color: #64BE62;
+  font-size: 25px;
+}
+
+.feature-content {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.feature-content h6 {
+  font-size: 18px;
+  margin: 0px 0 10px;
+}
+
+.counter-wrap {
+  background: #63BE61;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.single-counter p.counting {
+  font-size: 45px;
+  color: #212529;
+}
+
+.single-counter h6 {
+  font-size: 18px;
+  margin: 20px 0 5px;
+}
+
+.single-counter p {
+  color: #fff;
+  margin-bottom: 26px;
+}
+
+.story-img img {
+  border-radius: 12px;
+}

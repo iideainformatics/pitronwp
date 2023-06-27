@@ -1,0 +1,118 @@
+
+.contact-section {
+    background-image: url(../img/contact-bg.jpg);
+    background-attachment: fixed;
+}
+
+.contact-content {
+    margin-top: 50px;
+}
+
+.contact-section h2 {
+    color: #fff;
+}
+
+.contact-section p {
+    color: #c5bfbf;
+}
+
+.contact-section .contact-info i {
+    font-size: 30px;
+    margin-left: 0;
+    background: #C79C65;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0;
+    float: left;
+}
+
+.contact-inner {
+    margin-bottom: 30px;
+}
+
+.contact-inner h6 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 100px;
+}
+
+.contact-inner p {
+    padding-left: 100px;
+}
+
+.contact-section button.main-btn {
+    border: none;
+}
+
+.contact-section button.main-btn:hover {
+    background: #25283a;
+    color: #fff;
+}
+
+.contact-form {
+    margin-top: 80px;
+}
+
+/* Contact Page  
+============== */
+
+.contact-us-area {
+    background-image: url(../img/contact-bg-1.jpg);
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-us-wrapper {
+    background: #fff;
+    position: relative;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.10);
+}
+
+.contact-us-inner {
+    text-align: center;
+    padding: 40px 30px;
+    border-right: 1px solid #eee;
+}
+
+.contact-us-inner:nth-last-child(4) {
+    border-right: none;
+}
+
+.contact-us-inner h5 {
+    margin: 40px 0 20px;
+}
+
+.contact-us-inner a {
+    text-transform: uppercase;
+    color: #C89D66;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+
+#contact-us .info-i {
+    position: relative;
+    z-index: 1;
+}
+
+#contact-us .info-i i:before {
+    font-size: 50px;
+    color: #C89D66;
+}
+
+#contact-us .contact-form .main-btn {
+    margin-top: 30px;
+}
+
+.contact-section .section-title h2 {
+    color: #fff;
+}
+
+.contact-form .main-btn {
+    border-radius: 0;
+    border: none;
+    margin: 40px 0;
+}
